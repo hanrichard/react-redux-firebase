@@ -42,7 +42,7 @@ export const signUp = (newUser) => {
         .set({
             firstname: newUser.firstname,
             lastname: newUser.lastname,
-            // initials: newUser.firstname[0] + newUser.lastname[0]
+            initials: newUser.firstname[0] + newUser.lastname[0]
       });
     }).then(() => {
       dispatch({ type: 'SIGNUP_SUCCESS' });
