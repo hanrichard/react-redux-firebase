@@ -47,7 +47,7 @@ class Signup extends Component {
             
             <div className="input-file">
                 <label>first name</label>
-                <input type='text' id="fistname" onChange={this.handleChange}/>
+                <input type='text' id="firstname" onChange={this.handleChange}/>
             </div>
 
 
